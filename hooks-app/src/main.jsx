@@ -1,5 +1,6 @@
-/* import React from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { TodoApp } from './components/08-useReducer/TodoApp'
 //import { CallBackHook } from './components/06-memos/CallBackHook'
 //import { CounterApp } from './components/01-useState/CounterApp'
 //import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook'
@@ -29,8 +30,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     //<MemoHook/>
     //<CallBackHook/>
     //<Padre/>
+    <TodoApp/>
 
 )
- */
-
-import './components/08-useReducer/intro-reducer'
